@@ -11,8 +11,8 @@ def verb(arg):
 
 print(map(verb,[1,2,3]))
 
-#this is how map returns a list
+#this is how map returns a list doing a for loop for you
 def verb(arg):
-  return arg*2
+  return arg*2 #map removed the necessity to creat a for loop
 
 print(list(map(verb,[1,2,3])))
