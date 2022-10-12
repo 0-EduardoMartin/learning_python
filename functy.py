@@ -8,4 +8,4 @@ def verb(arg):
         ary.append(i*2)
     return ary
 
-print(verb([1,2,3]))
+print(map(verb,[1,2,3]))
